@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+    <link rel="stylesheet" href="weath.css">
+</head>
+<body>
+    
+    <div class="fedi" > <img  id="cloud" src="img/image-from-rawpixel-id-6117628-png.png" width="800" length="1000" alt="nop"> </div>
+    <div  class="fedi"> <img id="cloud1" src="img/image-from-rawpixel-id-6117628-png.png" width="800" length="1000" alt="nop"> </div>
+    <div  class="fedi"> <img id="cloud2" src="img/image-from-rawpixel-id-6117628-png.png" width="800" length="1000" alt="nop"> </div>
+    <div class="all">
+    <div> <img id="s" src="img/hech1.png" width="1280" length="500" alt="img/tn-02.png"> </div>
+    <div><button onclick="info('Gabes')" class="state fazat" id="Gabes">Gabes</button></div>
+    <div><button onclick="info('tunis')" class="state fazat" id="Tunis">tunis</button></div>
+    <div><button onclick="info('bizerte')" class="state fazat" id="Bizerte">bizerte</button></div>
+    <div><button onclick="info('Nabeul')" class="state fazat" id="Nabeul">Nabeul</button></div>
+    <div><button onclick="info('beja')" class="state fazat" id="Beja">Beja</button></div>
+    <div><button onclick="info('jandouba')" class="state fazat" id="Jandouba">Jandouba</button></div>
+    <div><button onclick="info('zaghouan')" class="state fazat" id="zaghouan">Zaghouan</button></div>
+    <div><button onclick="info('Siliana')" class="state fazat" id="Siliana">Siliana</button></div>
+    <div><button onclick="info('ElKef')" class="state fazat" id="Elkef">El kef</button></div>
+    <div><button onclick="info('Sousse')" class="state fazat" id="Sousse">Sousse</button></div>
+    <div><button onclick="info('monastir')" class="state fazat" id="Monastir">Monastir</button></div>
+    <div><button onclick="info('Mahdia')" class="state fazat" id="Mahdia">Mahdia</button></div>
+    <div><button onclick="info('kasserin')" class="state fazat" id="Kasserin">Kasserin</button></div>
+    <div><button onclick="info('Sidibouzid')" class="state fazat" id="Sidibouzid">Sidi bouzid</button></div>
+    <div><button onclick="info('kairaouan')" class="state fazat" id="kairouan">kairouan</button></div>
+    <div><button onclick="info('gafsa')" class="state fazat" id="Gafsa">Gafsa</button></div>
+    <div><button onclick="info('Sfax')" class="state fazat" id="Sfax">Sfax</button></div>
+    <div><button onclick="info('Mednine')" class="state fazat" id="Mednine">Mednine</button></div>
+    <div><button onclick="info('tozeur')" class="state fazat" id="Tozeur">Tozeur</button></div>
+    <div><button onclick="info('Kebeli')" class="state fazat" id="Kebeli">Kebeli</button></div>
+    <div><button onclick="info('Tataouine')" class="state fazat" id="Tataouine">Tataouine</button></div>
+    </div>
+    <div class="cart" >
+      <    
+        <body class="text-center">
+        <main>
+            <h1 class="banner p-3">Weather in</h1>
+            <div class="form-group">
+                <input id="city-input" class="form-control form-control-lg" type="text" placeholder="Search city">
+            </div>
+            <button type="button" onclick="searchCity()" class="btn btn-lg btn-dark">Search</button>
+            <div id="weather-output" class="mt-3">
+              <div class="card-deck mb-3 text-center">
+                  <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                      <h4 id="city-name" class="my-0 font-weight-normal">----</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 id="weather-type" class="card-title">----</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Temp: <span id="temp">--</span>°</li>
+                        <li>Humidity: <span id="Humidity">--</span>%</li>
+                        <li>Wind: <span id="Wind">--</span>km/h</li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </main>
+    </body>
+    </div>
+    
+    <div class="cart2" >
+        <div class="display">
+            <div id="time">1200</div>
+        </div>
+        <div class="sunrize">
+            <div id="Sunrise">Sunrise</div>
+            <div id="srtime">06:25</div>
+            <img src="img/icons8-sunrise-96.png" alt="noth">
+        </div>
+        <div class="sunset">
+            <div id="Sunset">Sunset</div>
+            <div id="sstime">17:45</div>
+            <img src="img/icons8-sunset-96.png" alt="noth">
+        </div>
+
+    </div>
+    <div class="cart3" >
+        <div id="fajr">Fajr :</div>
+        <div id="ftime">05:15</div>
+        <div id="thuhr">Thuhr :</div>
+        <div id="ttime">12:16</div>
+        <div id="asr">Asr :</div>
+        <div id="atime">15:50</div>
+        <div id="mag">Maghrib :</div>
+        <div id="mtime">18:50</div>
+        <div id="ish">Isha :</div>
+        <div id="itime">20:02</div>
+        <img id="mos1" src="img/icons8-mosque-64.png" alt="noth">
+        <img id="mos2"  src="img/icons8-mosque-64.png" alt="noth">
+        <img id="mos3"  src="img/icons8-mosque-64.png" alt="noth">
+        <img id="mos4"  src="img/icons8-mosque-64.png" alt="noth">
+        <img id="mos5"  src="img/icons8-mosque-64.png" alt="noth">
+    </div> 
+
+    <div class="cartx" >
+        <h2 id="hama" ></h2>
+        <p id="desc" ></p>
+        
+      
+    </div>
+    
+   
+    
+       
+    <script src="weath.js"></script>   
+   
+</body>
+</html>

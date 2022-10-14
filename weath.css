@@ -1,0 +1,382 @@
+body, html {
+    height: 73%;
+}
+body {
+    background-image: url("Ca1pture555.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+#s{
+    background-position: center;
+    position:fixed; 
+    left:305px; 
+    top:5px;
+}
+.state{
+    border: none;
+    background-color: inherit;
+    padding: 9px 18px;
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block}
+#Gabes{
+    position:absolute; 
+    left:917px; 
+    top:467px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+    
+  .fazat:hover {
+    color:darkgreen;
+    font-size: 150%;
+  }
+  #Tunis{
+    position:absolute; 
+    left:937px; 
+    top:98px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Monastir{
+    position:absolute; 
+    left:1040px; 
+    top:248px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Sfax{
+    position:absolute; 
+    left:990px; 
+    top:345px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Gafsa{
+    position:absolute; 
+    left:820px; 
+    top:398px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Tozeur{
+    position:absolute; 
+    left:740px; 
+    top:450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Kebeli{
+    position:absolute; 
+    left:820px; 
+    top:530px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Tataouine{
+    position:absolute; 
+    left:910px; 
+    top:667px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Mednine{
+    position:absolute; 
+    left:995px; 
+    top:527px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Sidibouzid{
+    position:absolute; 
+    left:862px; 
+    top:345px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Kasserin{
+    position:absolute; 
+    left:806px; 
+    top:308px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Elkef{
+    position:absolute; 
+    left:810px; 
+    top:195px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Beja{
+    position:absolute; 
+    left:892px; 
+    top:125px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Bizerte{
+    position:absolute; 
+    left:898px; 
+    top:65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#kairouan{
+    position:absolute; 
+    left:912px; 
+    top:246px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Mahdia{
+    position:absolute; 
+    left:1000px; 
+    top:282px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Sousse{
+    position:absolute; 
+    left:1003px; 
+    top:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Nabeul{
+    position:absolute; 
+    left:1015px; 
+    top:123px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#Siliana{
+    position:absolute; 
+    left:878px; 
+    top:182px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#Jandouba{
+    position:absolute; 
+    left:770px; 
+    top:115px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+#zaghouan{
+    position:absolute; 
+    left:950px; 
+    top:160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}  
+
+ .cart {
+    background: grey ;
+    padding: 2em;
+    border-radius: 30px;
+    width: 25%;
+    max-width: 250px;
+    margin-top: -2px;
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    color: white;
+    opacity: 0.85;
+    position:absolute;
+    top: 8% ;
+    
+    
+ } 
+ .cart2 {
+    background: grey ;
+    padding: 2em;
+    border-radius: 30px;
+    width: 25%;
+    max-width: 250px;
+    margin-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    left:83.3%;
+    top: 0%;
+   
+
+    
+ } 
+ .display{
+    font-size: 30px;
+    text-align: center;
+ }
+.sunset{
+    position: absolute;
+    left:60%;
+    top: 27%;
+    margin-top: 15px;
+}
+.sunrize{
+  margin-top: 15px;
+}
+#Sunset{
+    text-align: center;
+}
+#sstime{
+    text-align: center;
+}
+#Sunrise{
+    text-align: center;
+    margin-left: -60%;
+}
+#srtime{
+    text-align: center;
+    margin-left: -60%;
+}
+
+.cart3{
+    background: grey ;
+    padding: 2em;
+    border-radius: 30px;
+    width: 25%;
+    max-width: 250px;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    left:83.4%;
+    top: 0.2%;
+    margin-top: 17%;
+}
+#ftime{
+    text-align: center;
+    margin-top: -7%;
+}
+#thuhr{
+    margin-top: 10%;
+}
+#ttime{
+    text-align: center;
+    margin-top: -7%;
+}
+#asr{
+    margin-top: 10%;
+}
+#atime{
+    text-align: center;
+    margin-top: -7%;
+}
+#mag{
+    margin-top: 10%;
+}
+#mtime{
+    text-align: center;
+    margin-top: -7%;
+}
+#ish{
+    margin-top: 10%;
+}
+#itime{
+    text-align: center;
+    margin-top: -7%;
+}
+#mos1{
+    position:absolute;
+    top: 8%;
+    left: 70%;
+    margin-top: -7%;
+    border-radius: 50%;
+}
+#mos2{
+    position:absolute;
+    top: 25%;
+    left: 70%;
+    margin-top: -7%;
+    border-radius: 50%;
+}
+#mos3{
+    position:absolute;
+    top: 44%;
+    left: 70%;
+    margin-top: -7%;
+    border-radius: 50%;
+}
+#mos4{
+    position:absolute;
+    top: 60%;
+    left: 70%;
+    margin-top: -7%;
+    border-radius: 50%;
+}
+#mos5{
+    position:absolute;
+    top: 80%;
+    left: 70%;
+    margin-top: -7%;
+    border-radius: 50%;
+}
+#cloud{
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    
+}
+#cloud1{
+    position:absolute;
+    top: -10%;
+    left: 5%;
+    
+}
+#cloud2{
+    position:absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0.9;
+    
+}
+#city-input{
+    background: grey ;
+    padding: 1.5em;
+    border-radius: 30px;
+    width: 1860px;
+    max-width: 2000px;
+    height: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background: whitesmoke;
+    color: black;
+    position: absolute;
+    left:0.4%;
+    top: -27%;
+    margin-top: 10%;
+    opacity: 0.7;
+}
+.banner {
+    color: aliceblue;
+    position: relative;
+    top: -40px;
+
+}
+.cartx{
+    background: grey ;
+    padding: 2em;
+    border-radius: 30px;
+    width: 25%;
+    max-width: 250px;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    color: white;
+    opacity: 0.85;
+    position: absolute;
+    top: 47.5%;
+    
+}
+.imges{
+    border-radius: 30px;
+    width: 248px;
+    height: 200px;
+}
